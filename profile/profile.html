@@ -1,0 +1,102 @@
+<html>
+<head>
+  <meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+	<meta charset="utf-8"><!-- 文字コード指定。ここはこのままで。 -->
+	<title>kiyomakiのプロフィール</title>
+
+	<style>
+    .class1{
+      background-color: yellow;
+    }
+    .class2{
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+<!-- 見出し 第１レベル -->
+<!--（氏名）の公開を避ける場合はイニシャルやニックネームでOK-->
+<h1 id="midashi_1"> kiyomakiのプロフィール </h1>
+
+
+<!--自分を象徴するような画像を入れてみよう-->
+<!--画像も同じフォルダに保存すること-->
+<img src="Maxi_icon.jpg" alt="趣味で描いた絵のアイコン" title="プロフィール画像" width="320px" ><br>
+（画像についてひとこと：テキトーに描いたアイコンです．気に入ったのでプロフィールで使ってます．）
+
+<hr>
+
+<!-- 見出し 第２レベル ・以下、h2レベルで項目を色々書いていきましょう -->
+<!-- 自己紹介で言いたい項目を見出しにいれて、文章をつくりましょう。項目名は編集OK。項目を足してもOK。 -->
+<h2>所属など</h2>
+ 軽音のサークルに所属していて，ベースとギターを弾いています．<br>
+ アルバイトは塾講師をしています.<br>
+ <img src="guitar.jpg" alt="楽器" title="" width="320px" >
+ <img src="guitar_bass.jpg" alt="ギターとベース" title="" style="width: 230px; height: 340px;" ><br>
+
+
+<h2>趣味や属性</h2>
+ 楽器と曲作り，バスケットボールが趣味です．<br>
+ たまに絵も描きます．犬を飼ってます.<br>
+ <a href="https://www.youtube.com/@suen_chang" target="_blank">https://www.youtube.com/@suen_chang</a> ←作った曲<br>
+ <img src="kohaku.jpg" alt="家で飼っている犬" title="小白" style="width: 230px; height: 340px;" >
+ <img src="dtm_musician.png" alt="曲を作っている人" title="DTM" style="width: 300px; height: 300px;" ><br>
+
+<!-- HTMLで出来る色々な表現を試す -->
+<!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+<!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+<!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+<!-- ol ・ ul 片方でOK -->
+<h2>バンド</h2>
+<ul>
+	<li> <a href="https://www.youtube.com/watch?v=W4eFAWRAPtY" target="_blank">きのこ帝国</a></li>
+	<li> <a href="https://www.youtube.com/watch?v=hGY3AsHTV4g" target="_blank">kurayamisaka</a></li>
+	<li> <a href="https://www.youtube.com/watch?v=p4695j_SfPk" target="_blank">PK shampoo</a></li>
+	<li> <a href="https://www.youtube.com/watch?v=ahMb9c6jcRs" target="_blank">ハヌマーン</a></li>
+	<li> <a href="https://www.youtube.com/watch?v=DEgTUrLUbe8" target="_blank">赤い公園</a></li>
+</ul>
+
+ここら辺のバンドが好きです.<br>
+この内３つのバンドは解散してしまっていて悲しいです.<br>
+
+
+<hr>
+
+<!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+<h2>その他</h2>
+<!-- 見出し 第３レベル -->
+<h3>使用PC</h3><!-- 編集して、自分の使うPCだけ残しましょう -->
+普段はLinuxのUbuntuを使用していますが, Windows環境ではPowerShellを使用します.
+
+<h3>PC利用経験や、普段の使い方</h3>
+ノートPCは大学の授業や課題での使用がメインで, Excel, PowerPoint, Word, ChatGPTを主に使います.<br>
+デスクトップの方のPCは曲作りや楽器を練習する時に使います.
+
+<h3>自分の強みや弱みなど</h3>
+強み：好奇心が旺盛です．<br>
+弱み：長時間,人の話を聞きつづけるのが苦手です.<br>
+
+<h3>TECH-BASE参加にあたり、意気込み</h3>
+<strong>すいません!</strong> <u> 9/6</u>まで忙しく時間が取れないので,翌日以降から追い込んでいきます.<br>
+初めの数日は迷惑をかけるかもしれませんが,よろしくお願いします.<br>
+
+
+<hr>
+<a href="#midashi_1"> このページのTOPへ </a> / <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+
+<hr>
+
+<!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しておらずエラーが発生します。 -->
+<!-- したがって今はコピペするだけでOKです。スタートアップ以降のPHPミッションを進める際に、参考にしてください。 -->
+<form method="POST" action="">
+	お名前：<input type="text" name="name"><br>
+	コメント：<input type="text" name="comment"><br>
+	<input type="submit" name="submit" value="送信">
+</form>
+
+</body>
+</html>
