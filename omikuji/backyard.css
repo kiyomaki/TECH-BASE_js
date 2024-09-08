@@ -1,0 +1,9 @@
+body {
+  background-image: url("yellow_backyard.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500vh;
+  margin: 0;
+  padding: 0;
+}
