@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mission_4-5</title>
+  <link rel="stylesheet" href="backyard.css"><!--背景css呼び出し-->
+  <link rel="stylesheet" href="center.css"> <!--中央揃えのcss呼び出し-->
+  <link rel="stylesheet" href="log.css"><!--ログのcss呼び出し-->
+  <link rel="stylesheet" href="word_font.css"><!--文字フォントCSS呼び出し-->
+  <link rel="stylesheet" href="button_font.css"><!--ボタンフォントCSS呼び出し-->
+  <link rel="stylesheet" href="https://unpkg.com/@auroratide/typewritten-text/lib/style.css" /><!--タイプライター風テキストの読み込み(css)-->
+  <script type="module" src="https://unpkg.com/@auroratide/typewritten-text/lib/define.js"></script><!--タイプライター風テキストの読み込み(JavaScript)-->
+</head>
+
+<body>
+  <h2>おみくじ</h2>
+  <div id="omikuji"><typewritten-text>おみくじを引いてね！(種類: "大吉","吉","中吉","小吉","末吉","凶","大凶")</typewritten-text></div><!--おみくじ種類追加-->
+  <a href="#" onclick="omikujidisplay();return false;"><!--写真をクリックした時にもおみくじを引ける-->
+  <img src="omikuji.png" alt="おみくじのフリー素材" title="おみくじを引く" width="160px" ></a><br>
+  <button class="btn btn-flat" onclick="omikujidisplay()">おみくじを引く!</button><!--button_font.cssから-->
+  <script src="mission_4-5.js" defer></script>
+  <div id="log"></div>
+</body>
+</html>
