@@ -25,9 +25,8 @@
    - `omikuji.html`
    - `omikuji.js`
    - `backyard.css`
-   - `center.css`
+   - `style.css`
    - `log.css`
-   - `word_font.css`
    - `button_font.css`
 2. JavaScript内で参照されている画像ファイル（`daikichi.png`、`kichi.png` など）が同じディレクトリにあることを確認します。
 3. お使いのウェブブラウザで `omikuji.html` を開いてアプリを使用します。
@@ -49,9 +48,8 @@
 このプロジェクトは、以下のファイルに依存しています:
 - **CSSファイル:**
   - `backyard.css`: 背景画像を設定
-  - `center.css`: コンテンツを縦横中央に配置
+  - `style.css`: 中央揃えやフォントのスタイル
   - `log.css`: 運勢のログを表示するパネルのスタイル
-  - `word_font.css`: 全体のフォントやテキストスタイル
   - `button_font.css`: おみくじを引くボタンのスタイル
 - **JavaScriptファイル:**
   - `omikuji.js`: ランダムに運勢を引いて表示し、ログを更新するロジック
