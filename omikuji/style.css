@@ -1,0 +1,23 @@
+/*中央揃え*/
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/* 全体のフォント設定 */
+body {
+  font-family: 'Arial', sans-serif; /* 全体のフォントを指定 */
+  font-size: 1.0rem;
+  color: #333;
+}
+
+
+h2 {
+  margin-top: -10px;
+  margin-bottom: 5px; 
+  }
